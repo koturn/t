@@ -31,7 +31,7 @@
 
 #define UNCHECKED_MASK  ((unsigned char) 0x80)
 #define FLAG_MASK       ((unsigned char) 0x40)
-#define MINE            ((unsigned char) 0x3f)
+#define MINE            ((unsigned char) 0x20)
 
 #define SWAP(type, a, b) \
   do { \
